@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="63px" viewBox="0 0 78 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-961.000000, -697.000000)" fill="#FFFFFF">
+            <g id="item-5" transform="translate(770.000000, 665.000000)">
+                <g id="icon-5" transform="translate(191.000000, 32.000000)">
+                    <g>
+                        <circle id="Oval" fill-rule="nonzero" cx="25.983" cy="55.5" r="7.5"></circle>
+                        <circle id="Oval" fill-rule="nonzero" cx="59.982" cy="55.5" r="7.5"></circle>
+                        <path d="M64,0 L11.062,0 C7.874,0 8.062,3.125 8.062,3.125 L8.062,8 L3.469,8 C1.5531242,8 2.34627116e-16,9.5531242 0,11.469 C-2.34627116e-16,13.3848758 1.5531242,14.938 3.469,14.938 L31.554,16.778 L31.75,16.821 C30.989,20.018 22.812,20.626 22.812,20.626 L14.502,21.054 L5.446,21.054 C3.58203897,21.054 2.071,22.565039 2.071,24.429 C2.071,26.292961 3.58203897,27.804 5.446,27.804 L29.102,29.058 C28.295,32.211 22.812,32.814 22.812,32.814 L8.061,33.574 L8.061,49.189 C8.061,52.377 10.625,53.001 10.625,53.001 L12.724,53.001 C13.897,46.74 19.383,42.001 25.983,42.001 C32.583,42.001 38.068,46.74 39.242,53.001 L46.646,53.001 C47.82,46.74 53.306,42.001 59.906,42.001 C66.507,42.001 71.992,46.74 73.166,53.001 L74.875,53.001 C77.812,53 78,48.938 78,48.938 L78,33.688 C78,14.812 64,0 64,0 Z M52,23.938 L52,8.938 L62.062,8.938 L67.812,23.938 L52,23.938 Z" id="Shape" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

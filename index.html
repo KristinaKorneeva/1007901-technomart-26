@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <div>
-        <a class="header-logo" href="">Техномарт</a>
+        <a class="header-logo" href="index.html">Техномарт</a>
         <form method="GET" action="https://echo.htmlacademy.ru">
           <label for="search"><svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="M17 15.586l-3.542-3.542C14.458 10.74 15 9.144 15 7.5A7.5 7.5 0 107.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 012 7.5z" fill-rule="nonzero" fill="#FFF"/></svg>Поиск:</label>
           <input type="text" name="option1" id="search">
@@ -24,25 +27,25 @@
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div >
-      <div>
-        <a href=""><svg width="20" height="17" viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="#C5C5C5"><path d="M14.167 8.5L5.714 0v6H0v5h5.714v6z"/><path d="M16.177 15.01H11.39V17h4.787c2.074 0 2.861-1.81 2.885-3.026V3.028C19.038 1.811 18.252 0 16.177 0H11.39v1.99h4.787c.8 0 .945.681.962 1.057v10.904c-.016.376-.163 1.059-.962 1.059z"/></g></svg>Войти</a>
-        <a href="">Регистрация</a>
-      </div>
-      <div>
-        <a href="">
-            <svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg"><path d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39C-.026 14.902 0 18 0 18h20s.025-3.099-2.119-3.834z" fill-rule="nonzero" fill="#C5C5C5"/></svg>
-            Равшан Джамшутович
-            <svg width="20" height="17" viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="#C5C5C5"><path d="M14.167 8.5L5.714 0v6H0v5h5.714v6z"/><path d="M16.177 15.01H11.39V17h4.787c2.074 0 2.861-1.81 2.885-3.026V3.028C19.038 1.811 18.252 0 16.177 0H11.39v1.99h4.787c.8 0 .945.681.962 1.057v10.904c-.016.376-.163 1.059-.962 1.059z"/></g></svg>
-        </a>
-        <a href="">Мои заказы</a>
-        <a href="">Личный кабинет</a>
-      </div>
-      </div>
+          <div>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><image width="20" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAABKUlEQVQ4jaWUvUoFMRBGz1VREEEtfAybFIKFTUBBULCwkjSChVwrn8RKtBKLYCFa+dMIQbAQLNL4GBYqqKAgStgNG3auMV5PE3a+2W9nM8x0+AGlzR7Q9c5+xQylzQTw2OONd+A05A8IqWETOFDaDApFMgKsATu5CmNlR8C6d/ZDJDW5i8Al8JKrMBK+fKK0GRZKw219jpUYBpaBc6XNqFBalBoG5oELpc24UBI6yV2VcgcseGefY37a/b9UGJkBbpQ2U0Lp0zAwDeyK6D8M74EtEe3TMNzhnHf2QSjAEDApohW9RuwaWEkbIgy9s08iWnWuHbqqzd5EckLpL58BS7+ZBUoMwyyv5mYZmK3P13CHOQ6BDe/sZ3jIrK/Icc5wv70PM1T7ELa/AeTdToDgMkA7AAAAAElFTkSuQmCC"/></svg>Войти</a>
+            <a href="">Регистрация</a>
+          </div>
+          <div>
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="18" viewBox="0 0 20 18"><image width="20" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAABJklEQVQ4jaWTsUoEMRRFj+42WlkJln6ALqQSbCT4A6KFYKxcsFvYbcXKwk5/wDL9/kFqq4DaOxaCsFhYaaGCRKK7+l52Bj3lvcmZN5nMDFMw1i0C58BWXjUE+jH4UWlXUWismwcugZVf1Q2wFoN/FpuAWZGMGSgycjYQaQPhnkgadOorG+tawJsoftKOwb83nbCU165Rwxj8K1CJYkyV1whUYWYokgbdNOEpoN23Ue5UisIY/COwIwrYzp1KUZjRzvFOJBMUhca6dKV6ooBe7lRaWmis2wA8sCtKWAc2l5ZXbx+qazHt95OMdQvAPnAAdIRG5wq4SA+PwT99CvP4J/n/nFO31fMCnAHHbeAQOPqj6Is0SHLcp4/S/adskm4SNj2veqDzAbwEQBVdft6+AAAAAElFTkSuQmCC"/></svg></a>
+              <a href="">Равшан Джамшутович</a>
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><image width="20" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAABKUlEQVQ4jaWUvUoFMRBGz1VREEEtfAybFIKFTUBBULCwkjSChVwrn8RKtBKLYCFa+dMIQbAQLNL4GBYqqKAgStgNG3auMV5PE3a+2W9nM8x0+AGlzR7Q9c5+xQylzQTw2OONd+A05A8IqWETOFDaDApFMgKsATu5CmNlR8C6d/ZDJDW5i8Al8JKrMBK+fKK0GRZKw219jpUYBpaBc6XNqFBalBoG5oELpc24UBI6yV2VcgcseGefY37a/b9UGJkBbpQ2U0Lp0zAwDeyK6D8M74EtEe3TMNzhnHf2QSjAEDApohW9RuwaWEkbIgy9s08iWnWuHbqqzd5EckLpL58BS7+ZBUoMwyyv5mYZmK3P13CHOQ6BDe/sZ3jIrK/Icc5wv70PM1T7ELa/AeTdToDgMkA7AAAAAElFTkSuQmCC"/></svg></a>
+
+
+            <a href="">Мои заказы</a>
+            <a href="">Личный кабинет</a>
+          </div>
+          </div>
       <nav>
         <ul>
           <li><a href="">Главная</a></li>
           <li><a href="">Компания</a></li>
-          <li><a href="">Каталог</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
           <li><a href="">Новости</a></li>
           <li><a href="">Спецпредложения</a></li>
           <li><a href="">Доставка</a></li>
@@ -105,25 +108,25 @@
             <a href="">все популярные товары</a>
           </div>
           <article class="card-product">
-            <img src="img/snippet-32961-index.png" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
+            <img src="img/snippet-9000-index.png" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
             <p>Перфоратор BOSCH BFG 9000</p>
             <p>32500 Р.</p>
             <div>25500 Р.</div>
           </article>
           <article class="card-product">
-            <img src="img/snippet-18927-index.png" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/snippet-3000-index.png" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
             <p>Перфоратор BOSCH BFG 3000</p>
             <p>22500 Р.</p>
             <div>15500 Р.</div>
           </article>
           <article class="card-product">
-            <img src="img/snippet-945-index.png" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/snippet-6000-index.png" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
             <p>Перфоратор BOSCH BFG 6000</p>
             <p>30500 Р.</p>
             <div>25500 P.</div>
           </article>
           <article class="card-product">
-            <img src="img/snippet-18927-index.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+            <img src="img/snippet-3000-index.png" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
             <p>Перфоратор BOSCH BFG 2000</p>
             <div>12500 Р.</div>
           </article>

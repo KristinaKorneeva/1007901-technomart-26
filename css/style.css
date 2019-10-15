@@ -274,7 +274,7 @@ a {
   color: #ee3643;
 }
 .header-for-user {
-  padding-top: 31px;
+  padding-top: 20px;
 }
 .header-authorization {
   background: #ffffff;
@@ -284,9 +284,21 @@ a {
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 25px;
+  margin-right: 10px;
 }
 .authorized-user {
   color: #000000;
+  background: #ffffff;
+
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  box-sizing: border-box;
+}
+.authorized-user-bottom {
+  margin-left: 13px;
 }
 .logo-entrance {
   padding-right: 15px;
@@ -363,9 +375,7 @@ a {
 
 }
 /*товары*/
-.popular-goods {
-  display: inline-block;
-}
+
 .popular {
   display: flex;
 }
@@ -376,6 +386,12 @@ a {
 .popular-goods-section {
   display: flex;
   justify-content: space-between;
+
+  background: #f9f5f0;
+
+  min-height: 89px;
+  margin-bottom: 21px;
+  margin-top: 21px;
 }
 .button-goods {
   background: #ee3643;
@@ -387,7 +403,26 @@ a {
 .card-product {
   height: 318px;
   width: 220px;
+
+  border: 1px solid #eaeaea;
 }
+.card-product-info {
+
+}
+.popular-goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.popular-goods-item {
+  border: 1px solid #eaeaea;
+
+  width: 220px;
+  height: 145px;
+  margin-bottom: 20px;
+}
+
 /*сервис*/
 
 .services {
@@ -450,7 +485,9 @@ a {
 
 
 }
-
+.footer-text {
+  font-size: 18px;
+}
 
 .footer-bottom {
   background: #293449;

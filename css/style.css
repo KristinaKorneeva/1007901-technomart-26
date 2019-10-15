@@ -406,9 +406,6 @@ a {
 
   border: 1px solid #eaeaea;
 }
-.card-product-info {
-
-}
 .popular-goods-list {
   display: flex;
   flex-wrap: wrap;
@@ -461,10 +458,6 @@ a {
 
 /**/
 
-
-
-/**/
-
 .footer-top {
   background: #32425c;
 
@@ -482,8 +475,6 @@ a {
   justify-content: space-between;
 
   list-style: none;
-
-
 }
 .footer-text {
   font-size: 18px;

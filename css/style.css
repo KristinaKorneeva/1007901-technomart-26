@@ -34,12 +34,12 @@ a {
 }
 
 /*заголовки*/
-.title {
+.section-title {
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
 }
-.subject {
+.title {
   font-size: 30px;
   line-height: 30px;
 }
@@ -53,10 +53,6 @@ a {
   line-height: 21px;
   color: #000000;
 }
-.heder-adres {
-  font-size: 13px;
-  color: #32425c;
-}
 
 .poduct-name {
   font-size: 18px;
@@ -66,12 +62,11 @@ a {
 }
 
 /*кнопки*/
-
-/**/
 .link {
   font-size: 17px;
   line-height: 17px;
 }
+
 .button {
   color: #ffffff;
   font-size: 14px;
@@ -166,10 +161,12 @@ a {
   color: #000000;
   border: 2px solid #000000;
 }
+
+
 /* header */
 
 /*header-top*/
-.header-main-area {
+.header-top {
   background: #293449;
   color: #ffffff;
 
@@ -177,7 +174,7 @@ a {
   margin-top: 0;
   box-sizing: border-box;
 }
-.main-area {
+.header-top-page {
   display: flex;
   align-items: center;
 
@@ -192,7 +189,7 @@ a {
   padding-right: 55px;
   padding-left: 55px;
 }
-.header-product-search {
+.header-form-search {
   width: 260px;
   padding-left: 15px;
 }
@@ -205,6 +202,11 @@ a {
 .input-search::placeholder {
   color: #ffffff;
   font-size: 17px;
+}
+.user-navigation {
+  list-style: none;
+
+  display: flex;
 }
 .bookmarks {
   width: 140px;
@@ -225,28 +227,18 @@ a {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-/**/
 
-.header-section {
-  background: #f2f6f8;
-}
-.section-name {
-  background: #f2f6f8;
-
-  min-height: 90px;
-}
-.name-bread-crumbs {
-  color: #000000;
-}
 /*heder-middle*/
-.section-main-area {
+.header-bottom {
+  background: #f2f6f8;
+}
+.header-section {
   display: flex;
   justify-content: space-between;
 
   padding-top: 24px;
   padding-bottom: 16px;
 }
-
 .header-info {
   width: 200px;
   padding-left: 53px;
@@ -254,13 +246,11 @@ a {
   font-size: 16px;
   font-style: italic;
 }
-
 .header-contact {
   padding-top: 28px;
 }
 .phone {
   border: 3px solid #ffffff;
-
 
   padding-right: 50px;
   padding-left: 10px;
@@ -273,8 +263,9 @@ a {
 
   color: #ee3643;
 }
-.header-for-user {
-  padding-top: 20px;
+.heder-adres {
+  font-size: 13px;
+  color: #32425c;
 }
 .header-authorization {
   background: #ffffff;
@@ -303,6 +294,14 @@ a {
 .logo-entrance {
   padding-right: 15px;
 }
+.section-name {
+  background: #f2f6f8;
+
+  min-height: 90px;
+}
+.name-bread-crumbs {
+  color: #000000;
+}
 
 /*header-bottom*/
 .site-navigation {
@@ -327,8 +326,6 @@ a {
 }
 
 /*услуги*/
-.services-category {
-}
 .category {
   display: flex;
 }
@@ -336,7 +333,6 @@ a {
   width: 300px;
   min-height: 123px;
 }
-
 .materials {
  background: #ffbf47;
 }
@@ -357,33 +353,16 @@ a {
   list-style: none;
   color: #ffffff;
 }
-.slider-item:nth-child(1) {
-  background: #685c53;
-  background-image: url(../img/perforator-slide.png);
 
-  width: 620px;
-  height: 266px;
-}
-.slider-item:nth-child(2) {
-  background: #685c53;
-  background-image: url(../img/dreli-slide.png);
-  width: 620px;
-  height: 266px;
-}
 .button-slide {
   background: #ee3643;
 
 }
 /*товары*/
-
 .popular {
   display: flex;
 }
-
-.popular-manufacturers {
-  display: flex;
-}
-.popular-goods-section {
+.popular-goods-header {
   display: flex;
   justify-content: space-between;
 
@@ -410,7 +389,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 .popular-goods-item {
   border: 1px solid #eaeaea;
@@ -427,19 +405,17 @@ a {
 
   display: block;
 }
-
-.slide {
-  list-style: none;
-}
 .slide-services {
   display: flex;
 }
-
 .slide-key {
   font-size: 21px;
   line-height: 30px;
   font-weight: bold;
 
+  list-style: none;
+}
+.slide {
   list-style: none;
 }
 
@@ -494,7 +470,7 @@ a {
   justify-content: space-between;
 }
 /*страница каталога*/
-.products {
+.catalog {
   display: flex;
   justify-content: space-between;
 }

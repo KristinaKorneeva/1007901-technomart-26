@@ -263,6 +263,9 @@ a {
   opacity: 0.4;
   padding-right: 13px;
 }
+.icon-search {
+  opacity: 0.4;
+}
 .header-contact {
   padding-top: 16px;
   padding-left: 46px;
@@ -405,8 +408,10 @@ a {
 /*товары*/
 .popular {
   display: flex;
-
+  justify-content: space-between;
   list-style: none;
+
+  padding-left: 0;
 }
 .popular-goods-header {
   display: flex;
@@ -420,10 +425,11 @@ a {
 }
 .button-goods {
   background: #ee3643;
-  height: 37px;
-  width: 254px;
-  padding: 0;
-  text-align: center;
+  padding: 10px 40px 10px 40px;
+  margin-top: 39px;
+}
+.button-goods-map {
+  padding: 10px 60px 10px 60px;
 }
 .card-product {
   height: 318px;
@@ -501,6 +507,27 @@ a {
 .about-us {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 86px;
+
+}
+.item-info {
+  list-style: none;
+
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'PT Sans', sans-serif;
+
+  padding-top: 20px;
+}
+.item-info::before {
+  color: #fb565a;
+  content: '\2014';
+
+  padding-right: 22px;
+}
+.company-details-text {
+  font-family: 'PT Sans', sans-serif;
 }
 .company-details {
   width: 520px;
@@ -550,6 +577,7 @@ a {
   padding-left: 63px;
 }
 .footer-text {
+  color: #ffffff;
   font-size: 18px;
   line-height: 24px;
 }
@@ -982,9 +1010,11 @@ a {
       align-items: center;
 }
 .feedback-text {
-
+  color: #ffffff;
   font-size: 16px;
   line-height: 18px;
+
+  margin: 0;
 }
 .feedback-link{
   color: #ffd180;

@@ -1267,9 +1267,6 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 .icon-up {
   opacity: 0.5;
 }
-.icon-up-active {
-
-}
 .icon-up:hover,
 .icon-up:focus {
   opacity: 1;
@@ -1334,4 +1331,136 @@ box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 .feedback-link:active {
   text-decoration: none;
   color: #ffd180;
+}
+
+
+/*окно корзины*/
+.popup-card {
+  height: 282px;
+  width: 620px;
+  box-sizing: border-box;
+
+  position: relative;
+  border-top: 7px solid #ee3643;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.title-popup {
+  font-size: 30px;
+  line-height: 30px;
+
+  padding-left: 30px;
+}
+
+.popup-info {
+  box-sizing: border-box;
+  display: flex;
+
+  padding-left: 80px;
+  height: 162px;
+  padding-top: 46px;
+}
+.popup-actions {
+
+  box-sizing: border-box;
+
+  height: 113px;
+  background: #f1f1f1;
+  padding-top: 35px;
+  padding-left: 80px;
+
+}
+.popup-close {
+  background: transparent;
+  border: none;
+
+  position: absolute;
+  padding: 0;
+  right: 10px;
+  top: 10px;
+}
+.popup-button-issue {
+  background: #ee3643;
+  margin-right: 20px;
+}
+.popup-button-continue {
+  color: #000000;
+}
+
+
+/*popup-index*/
+.popup {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+
+
+  width: 620px;
+  height: 430px;
+
+  position: relative;
+  border-top: 7px solid #ee3643;
+
+
+  /**/
+  margin-bottom: 50px;
+  margin-left: 50px;
+
+}
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+
+box-sizing: border-box;
+
+padding-left: 60px;
+padding-top: 47px;
+padding-right: 60px;
+}
+.form-field {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 23px;
+}
+.col-large {
+  width: 100%;
+}
+.form-ladel {
+  font-size: 18px;
+  line-height: 18px;
+}
+.form-input {
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #444;
+  padding: 14px 8px;
+  width: 100%;
+}
+.button-popup-section {
+  background: #f1f1f1;
+
+  width: 100%;
+  height: 114px;
+}
+.popup-button {
+  box-sizing: border-box;
+  background: #ee3643;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+
+  padding: 13px 199px 13px 199px;
+  margin-left: 55px;
+  margin-top: 36px;
+}
+.button-close-popup {
+  background: transparent;
+  border: none;
+
+  position: absolute;
+  padding: 0;
+  right: 10px;
+  top: 10px;
 }

@@ -1,0 +1,29 @@
+var link = document.querySelector(".buy");
+var popupCard = document.querySelector(".popup-card");
+var popupClose = popupCard.querySelector(".popup-close");
+var popupContinue = popupCard.querySelector(".popup-button-continue");
+
+link.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  popupCard.classList.add("modal-show-popup");
+  });
+
+popupClose.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popupCard.classList.remove("modal-show-popup");
+  });
+
+popupContinue.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popupCard.classList.remove("modal-show-popup");
+  });
+
+
+window.addEventListener("keydown", function (evt) {
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      if (popupCard.classList.contains("modal-show-popup")) {
+        popupCard.classList.remove("modal-show-popup");
+      }
+    }
+  });

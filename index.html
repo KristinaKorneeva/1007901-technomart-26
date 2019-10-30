@@ -50,7 +50,7 @@
 
           <nav class="inner">
             <ul class="site-navigation header-nav">
-              <li class="site-navigation-link"><a class="site-link link" href="">Главная</a></li>
+              <li class="site-navigation-link"><a class="site-link link" href="index.html">Главная</a></li>
               <li class="site-navigation-link"><a class="site-link link" href="">Компания</a></li>
               <li class="site-navigation-link"><a class="site-link link" href="catalog.html">Каталог</a></li>
               <li class="site-navigation-link"><a class="site-link link" href="">Новости</a></li>
@@ -72,6 +72,7 @@
             <a class="button button-category" href="">на любой вкус</a>
             </div>
             <img class="icon-product" src="img/icon-materials.svg" width="44" height="65" alt="Материалы">
+            <div class="flag flag-new">Новинка</div>
           </article>
           <article class="category-product tool ">
               <div class="text-category">
@@ -79,6 +80,7 @@
             <a class="button button-category" href="">на все случаи</a>
             </div>
             <img class="icon-product" src="img/icon-tool.svg" width="75" height="61" alt="Инструмент">
+            <div class="flag">Новинка</div>
           </article>
           <article class="category-product technics">
               <div class="text-category">
@@ -86,29 +88,42 @@
             <a class="button button-category" href="">для стройки</a>
                 </div>
             <img class="icon-product" src="img/icon-technics.svg" width="78" height="62" alt="Техника">
+            <div class="flag">Новинка</div>
           </article>
+
+          <div class="container-slide">
+            <h3 class="visually-hidden"></h3>
+              <input class="slider-input visually-hidden slider-product-1" type="radio" id="product-1" name="toogle">
+              <input class="slider-input visually-hidden slider-product-2" type="radio" id="product-2" name="toogle" checked>
+              <div class="slider-control">
+                <label class="slider-controls-item slider-controls-item--1 slider-product-1" for="product-1"></label>
+                <label class="slider-controls-item slider-controls-item--2 slider-product-2" for="product-2"></label>
+              </div>
+
             <ul class="slider-list">
-            <li class="slider-item slide-item-1">
+            <li class="slider-item">
               <div class="signature-header">
                 <p class="heading">Перфораторы</p>
                 <p class="footer-text">Настоящие мужские игрушки</p>
               <a class="button button-slide" href="technomart-catalog.psd">открыть каталог</a>
               </div>
-              <div>
+              <div class="slider-item-1">
                 <img class="" src="img/perforator-slide.png" width="620" height="266" alt="Слайд Перфораторы">
               </div>
             </li>
-            <li class="slider-item slide-item-2">
+            <li class="slider-item">
               <div class="signature-header">
                 <p class="heading">Дрели</p>
                 <p class="footer-text">Соседям на радость!</p>
               <a class="button button-slide" href="technomart-catalog.psd">открыть каталог</a>
               </div>
-              <div>
+              <div class="slider-item-2">
                 <img class="" src="img/dreli-slide.png" width="620" height="266" alt="Слайд Дрели">
               </div>
             </li>
-          </ul>
+            </ul>
+          </div>
+
           <div>
           <article class="category-product discounts">
             <div class="text-category">
@@ -116,6 +131,7 @@
             <a class="button button-category" href="">на 350 товаров</a>
             </div>
             <img class="icon-product" src="img/icon-discounts.svg" width="59" height="72" alt="Скидки">
+            <div class="flag">Новинка</div>
           </article>
           <article class="category-product delivery">
             <div class="text-category">
@@ -123,6 +139,7 @@
             <a class="button button-category" href="">бесплатно</a>
             </div>
             <img class="icon-product" src="img/icon-delivery.svg" width="78" height="63" alt="Доставка">
+            <div class="flag">Новинка</div>
           </article>
           </div>
 
@@ -280,7 +297,9 @@
         <section class="contacts-map">
           <h3 class="title">Контакты</h3>
             <p  class="company-details-text">Вы можете забрать товар сами, заехав к нам в офис:</p>
-            <img src="img/map.jpg" width="300" height="158" alt="Наш адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+            <div class="map">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3997.2989166486054!2d30.3195176114589!3d59.93795868944831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1570369928319!5m2!1sru!2sru" allowfullscreen="" width="300px" height="168px"></iframe>
+            </div>
               <button class="button button-goods button-goods-map" type="submit">Заблудились? Напишите нам!</button>
         </section>
       </article>
@@ -340,11 +359,11 @@
           <div class="wrapper">
           <p class="form-field col-medium">
             <label class="form-ladel" for="appointment-name">Ваше имя:</label>
-            <input class="form-input" type="text" name="login" id="appointment-name" placeholder="Имя Фамилия">
+            <input class="form-input" type="text" name="login" id="appointment-name" placeholder="Имя Фамилия" required>
           </p>
           <p class="form-field col-medium">
             <label class="form-ladel" for="appointment-mail">Ваш e-mail:</label>
-            <input class="form-input" type="email" name="mail" id="appointment-mail" placeholder="email@example.com">
+            <input class="form-input" type="email" name="mail" id="appointment-mail" placeholder="email@example.com" required>
           </p>
           <p class="form-field col-large">
             <label class="form-ladel" for="appointment-text">Текст письма:</label><br>
@@ -360,7 +379,7 @@
           <button class="button-close-popup" type="submit"><svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><path d="M13.273 10.5l7.422-7.422a1.003 1.003 0 000-1.414L19.336.305a1.003 1.003 0 00-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 00-1.414 0L.305 1.664a1.003 1.003 0 000 1.414L7.727 10.5.306 17.922a1.003 1.003 0 000 1.414l1.359 1.359a1.003 1.003 0 001.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 001.414 0l1.359-1.359a1.003 1.003 0 000-1.414L13.273 10.5z" fill-rule="nonzero" fill="#EE3643"/></svg></button>
       </div>
 
-
+      <script src="js/main.js"></script>
     </footer>
   </body>
 </html>
